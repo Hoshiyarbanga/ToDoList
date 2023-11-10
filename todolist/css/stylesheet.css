@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+section {
+    background: antiquewhite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    background-color: #5f0efd75;
+    width: 550px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+#add {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+}
+.box h1 {
+    font-size: 29px;
+    text-align: center;
+    color: #fff;
+}
+input {
+    width: 75%;
+    padding: 9px;
+    border: none;
+    margin-left: 17px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.btn {
+    padding: 4px 10px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: gray;
+}
+.btn2 {
+    padding: 5px 11px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color: #fbd8d8;
+}
+#listContainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+#taskInput {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.doneButton {
+  margin-left: 5px;
+  cursor: pointer;
+}
